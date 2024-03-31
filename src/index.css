@@ -1,0 +1,493 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Architects Daughter";
+    font-family: "Poppins", sans-serif;
+}
+.Font2{
+font-family: "Architects Daughter";    
+}
+
+::placeholder {
+    color: black;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.Links::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    background-color: black;
+    transition: .3s all ease-in;
+}
+
+.Links:hover::before {
+    width: 100%;
+}
+
+.LinkFull::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    background-color: rgb(23, 127, 255);
+    transition: 0s all ease-in;
+}
+
+.Button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    transform: skewX(-30deg);
+    background-color: rgb(23, 127, 255);
+    top: 0px;
+    left: -22px;
+    transition: .3s ease-in;
+}
+
+.Button:hover::before {
+    width: 0px;
+    transform: skewX(0deg);
+}
+
+.OuterCircle {
+    transition: all 1s;
+}
+
+.ServiceCard:hover .OuterCircle {
+    top: 5vh;
+    left: 5vw;
+}
+
+.swiper {
+    width: 80%;
+    height: max-content;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TopAbroadCard:hover .Layer {
+    top: 0% !important;
+    left: 0% !important;
+}
+
+.CountryPlane {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.MenuBar {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .Home-Container {
+        flex-direction: column;
+        gap: 10vh;
+    }
+
+    .Home-Left {
+        width: 100% !important;
+    }
+
+    .Home-Right {
+        width: 100% !important;
+    }
+
+    .Detail-Box h1,
+    .Detail-Box div,
+    .Detail-Box h3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .Spring {
+        width: 13vw;
+    }
+
+    .RoundArrow {
+        rotate: 52deg;
+        left: 10vw;
+    }
+
+    .SpringArrow {
+        bottom: 6vw;
+        right: 10vw;
+    }
+
+    .Image-Container {
+        border-radius: 90px;
+        border: 20px solid white;
+        height: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    .All-Image-Container {
+        justify-content: center;
+    }
+
+    .Home-Right-BG {
+        top: -23vh;
+        transform: scale(.5);
+    }
+
+    .Country-Img-Container {
+        min-width: 46%;
+        background: aqua;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .RoundArrow {
+        left: 0vw;
+    }
+
+    .SpringArrow {
+        right: 0vw;
+    }
+
+    .Slider .swiper {
+        width: 90%;
+    }
+
+    .Slide {
+        min-height: 60vh !important;
+        padding: 20px 30px !important;
+    }
+
+    .Accordian {
+        height: 80vh !important;
+    }
+
+    .Footer-Bg {
+        top: 10vh;
+    }
+
+    .About-Top {
+        flex-direction: column;
+    }
+
+    .About-Bottom {
+        flex-direction: column;
+    }
+
+    .About-Left {
+        width: 100%;
+        max-height: 30vh;
+    }
+
+    .About-Right {
+        width: 100%;
+    }
+
+    .About-Left img {
+        width: 100%;
+        min-height: 25vh;
+        max-height: 30vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .CountryTop,
+    .CountryBottom {
+        padding: 2rem 2rem 2rem;
+        flex-direction: column;
+    }
+
+    .CountryBottom {
+        align-items: end;
+    }
+
+    .CountryTop {
+        align-items: start;
+    }
+
+    .Country-Img-Container,
+    .Country-Img-Container img {
+        min-width: 100%;
+        max-height: 40vh;
+        background: aqua;
+    }
+
+    .About-Heading {
+        font-size: 3rem !important;
+    }
+
+    .Url-Container {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MenuBtn {
+        display: none !important;
+    }
+
+    .MenuBar {
+        display: block;
+    }
+
+    .OverCircle {
+        height: 5rem !important;
+        left: -5%;
+    }
+
+    .Detail-Box h1 {
+        font-size: 3rem !important;
+    }
+
+    .Detail-Box h3 {
+        font-size: 1.25rem !important;
+    }
+
+    .Button,
+    .Button-Text {
+        padding: .75rem 1.5rem;
+    }
+
+    .Home-Right-BG {
+        top: -17vh;
+        transform: scale(.8);
+    }
+
+    .Heading {
+        gap: .5rem !important;
+    }
+
+    .Heading:hover {
+        gap: 2rem !important;
+    }
+
+    .Heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .Slide {
+        min-height: max-content !important;
+        padding: 15px 40px !important;
+    }
+
+    .Service {
+        background-repeat: repeat-y;
+    }
+
+    .Accordian {
+        background-position: left !important;
+    }
+
+    .Accordian {
+        padding: 0rem 1rem;
+    }
+
+    .Footer-Bg {
+        top: 37vh;
+    }
+
+    .Form {
+        width: 100%;
+    }
+
+    .About-Page {
+        padding: 2rem;
+    }
+
+    .Url-Heading {
+        font-size: 2rem;
+    }
+
+    .Url-Container {
+        height: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .Detail-Box {
+        padding: 0px !important;
+    }
+
+    .Spring {
+        top: 1rem;
+        width: 18vw;
+    }
+
+    .RoundArrow {
+        width: 20vw;
+        bottom: 0vh;
+        rotate: 22deg;
+    }
+
+    .SpringArrow {
+        rotate: -20deg;
+        bottom: 18vw;
+        right: 0vw;
+    }
+
+    .Detail-Box h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .OverCircle {
+        height: 4rem !important;
+        left: -5%;
+    }
+
+    .Image-Container {
+        border: 10px solid white;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Home-Right-BG {
+        top: -8vh;
+        transform: scale(.9);
+    }
+
+    .Book img {
+        width: 70px !important;
+    }
+
+    .Bulb img {
+        width: 40px !important;
+    }
+
+    .Heading h1 {
+        width: min-content;
+    }
+
+    .Accordian {
+        height: 100vh !important;
+    }
+
+    .About-Heading {
+        font-size: 2.5rem !important;
+    }
+
+    .Plane1,
+    .Plane2 {
+        width: 150px;
+    }
+
+    .Plane1 {
+        top: 4rem;
+        left: 0.5rem;
+    }
+
+    .Plane2 {
+        top: 4rem;
+        right: 0.5rem;
+    }
+
+    .Icon {
+        padding: 1rem;
+    }
+
+    .CountryTop,
+    .CountryBottom {
+        padding: 1rem 1rem 2rem;
+    }
+
+    .Url-Heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .SpringArrow {
+        display: none;
+    }
+
+    .RoundArrow {
+        display: none;
+    }
+
+    .Spring {
+        left: 1.5rem;
+    }
+
+    .Home-Container {
+        gap: 0vh;
+    }
+
+    .Home-Left,
+    .Home-Right {
+        height: 70% !important;
+    }
+
+    .Detail-Box {
+        max-height: 100%;
+    }
+
+    .Home-Right-BG {
+        top: 0;
+        transform: scale(1);
+    }
+
+    .RotateImage {
+        display: none;
+    }
+
+    .Contact-Form {
+        min-height: 110vh !important;
+    }
+
+    .Form div input {
+        width: 100%;
+    }
+
+    .Form div {
+        flex-direction: column;
+    }
+
+    .Footer-Bg {
+        top: 72vh;
+    }
+
+    .About-Page {
+        gap: 0rem;
+        padding: 1rem;
+    }
+
+    .Icon {
+
+        padding: .5rem;
+    }
+
+    .Icon svg {
+        width: 30px;
+        height: 30px;
+    }
+}
