@@ -43,7 +43,7 @@ const Accordian = () => {
 
     }
     return (
-        <div className='Accordian w-full h-screen bg-[url("./Resource/category-bg-2.png")] hue-rotate-[337deg] bg-no-repeat bg-right  flex gap-10 flex-col items-center p-5 px-16'>
+        <div className='Accordian w-full h-screen hue-rotate-[337deg] bg-no-repeat bg-right  flex gap-10 flex-col items-center p-5 px-16'>
             <div className='w-full py-5 flex justify-center items-center text-3xl'>
                 <div className='Heading w-max flex items-center justify-center gap-5 transition-all duration-700 hover:gap-10'>
                     <div className='w-max flex items-center justify-center'>

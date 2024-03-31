@@ -97,7 +97,7 @@ const Slider = () => {
     },
   ]
   return (
-    <div className='Slider w-full h-auto py-5 flex flex-col items-center justify-center bg-[#F6F6F6] bg-[url("./Resource/testimonial-bg-2-1.jpg")] bg-no-repeat bg-right-top'>
+    <div className='Slider w-full h-auto py-5 flex flex-col items-center justify-center bg-no-repeat bg-right-top'>
       <div className='w-full pt-5 flex justify-center items-center text-3xl'>
         <div className='Heading w-max flex items-center justify-center gap-5 transition-all duration-700 hover:gap-10'>
           <div className='w-max flex items-center justify-center'>

@@ -124,8 +124,8 @@ const TopAbroad = () => {
         },
     ]
     return (
-        <div>
-            <div className='w-full pt-20 flex justify-center items-center text-3xl'>
+        <div className='TopAbroad bg-white py-20'>
+            <div className='w-full flex justify-center items-center text-3xl'>
                 <div className='Heading w-max flex items-center justify-center gap-5 transition-all duration-700 hover:gap-10'>
                     <div className='w-max flex items-center justify-center'>
                         <PiPaperPlaneRightFill size={19} color='rgb(23, 127, 255)' className='rotate-[180deg]' />

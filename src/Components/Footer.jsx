@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='w-full min-h-[80vh] bg-blue-900 relative text-white flex flex-col items-center justify-center overflow-hidden'>
-      <div className='Footer-Bg w-full h-[80vh] bg-left-bottom absolute top-0 left-0 bg-[url("./Resource/footer-bg-2.png")] z-0 bg-no-repeat animate-[moveTopTo_10s_linear_infinite]'></div>
+      <div className='Footer-Bg w-full h-[80vh] bg-left-bottom absolute top-0 left-0 z-0 bg-no-repeat animate-[moveTopTo_10s_linear_infinite]'></div>
       <div className='w-full h-full z-10 flex flex-col gap-6 justify-between'>
         <div className='w-full h-auto flex flex-col gap-3 p-5 px-10 border-black border-b'>
           <Link to={`/Suvidha-Overseas/home`}>

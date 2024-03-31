@@ -4,7 +4,7 @@ import { PiPaperPlaneRightFill } from "react-icons/pi";
 
 const Exam = () => {
   return (
-    <div className='w-full min-h-screen bg-[url("./Resource/service-bg.jpg")] bg-repeat bg-bottom flex gap-0 flex-col items-center p-10'>
+    <div className='Exam w-full min-h-screen bg-repeat bg-bottom flex gap-0 flex-col items-center p-10'>
     <div className='w-full pt-5 flex justify-center items-center text-3xl'>
         <div className='Heading w-max flex items-center justify-center gap-5 transition-all duration-700 hover:gap-10'>
             <div className='w-max flex items-center justify-center'>

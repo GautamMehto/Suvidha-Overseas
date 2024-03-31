@@ -64,7 +64,7 @@ const Service = () => {
 
   ]
   return (
-    <div className='Service w-full min-h-screen bg-[url("./Resource/team-bg-2-2.jpg")] bg-no-repeat bg-bottom flex gap-10 flex-col items-center p-5 px-16'>
+    <div className='Service w-full min-h-screen bg-no-repeat bg-bottom flex gap-10 flex-col items-center p-5 px-16'>
       <div className='w-full py-5 flex justify-center items-center text-3xl'>
         <div className='Heading w-max flex items-center justify-center gap-5 transition-all duration-700 hover:gap-10'>
           <div className='w-max flex items-center justify-center'>

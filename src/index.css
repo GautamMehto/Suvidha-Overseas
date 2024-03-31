@@ -7,11 +7,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Architects Daughter";
     font-family: "Poppins", sans-serif;
 }
-.Font2{
-font-family: "Architects Daughter";    
+
+.Font2 {
+    font-family: "Architects Daughter";
 }
 
 ::placeholder {
@@ -69,6 +69,22 @@ body {
     transition: all 1s;
 }
 
+.Slider {
+    background-image: url("./Resource/testimonial-bg-2-1.jpg");
+}
+
+.Service {
+    background-image: url("./Resource/team-bg-2-2.jpg");
+}
+.Accordian{
+    background-image: url("./Resource/category-bg-2.png");
+}
+.Footer-Bg{
+    background-image: url("./Resource/footer-bg-2.png");
+}
+.Exam , .ServicePage{
+    background-image: url("./Resource/service-bg.jpg");
+}
 .ServiceCard:hover .OuterCircle {
     top: 5vh;
     left: 5vw;

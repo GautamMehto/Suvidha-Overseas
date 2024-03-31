@@ -40,8 +40,8 @@ const Home = () => {
                                 </div>
                             </div>
                         </h1>
-                        <h3 className="text-2xl font-[Font1]">We Empower your Dreams</h3>
-                        <h3 className="text-2xl font-[Font1]">-Study abroad along with us and reach new heights.</h3>
+                        <h3 className="text-2xl ">We Empower your Dreams</h3>
+                        <h3 className="text-2xl ">-Study abroad along with us and reach new heights.</h3>
                         <div className='flex gap-5 mt-5'>
                             <Link to={"contact"}>
                             <Button text={"contact us"} />
