@@ -70,20 +70,20 @@ body {
 }
 
 .Slider {
-    background-image: url("./Resource/testimonial-bg-2-1.jpg");
+    background-image: url("../public/Resource/testimonial-bg-2-1.jpg");
 }
 
 .Service {
-    background-image: url("./Resource/team-bg-2-2.jpg");
+    background-image: url("../public/Resource/team-bg-2-2.jpg");
 }
 .Accordian{
-    background-image: url("./Resource/category-bg-2.png");
+    background-image: url("../public/Resource/category-bg-2.png");
 }
 .Footer-Bg{
-    background-image: url("./Resource/footer-bg-2.png");
+    background-image: url("../public/Resource/footer-bg-2.png");
 }
 .Exam , .ServicePage{
-    background-image: url("./Resource/service-bg.jpg");
+    background-image: url("../public/Resource/service-bg.jpg");
 }
 .ServiceCard:hover .OuterCircle {
     top: 5vh;
