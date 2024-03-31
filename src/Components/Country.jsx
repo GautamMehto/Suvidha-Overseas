@@ -96,7 +96,7 @@ const Country = () => {
                                         <img src={item.Aboutimg} alt="" className='h-full object-cover' />
                                     </div>
                                     <div className='Country-Detail flex flex-col items-end gap-5 relative'>
-                                        <img src="Resource/course-shape-1.png" alt="" className='w-[80px] absolute left-[0%] top-[0%] animate-[moveTopTo_5s_linear_infinite]' />
+                                        <img src="./Resource/course-shape-1.png" alt="" className='w-[80px] absolute left-[0%] top-[0%] animate-[moveTopTo_5s_linear_infinite]' />
                                         <h1 className="About-Heading w-4/5 text-6xl font-extrabold capitalize text-wrap mb-1 text-end">
                                             {item.about} {item.name} .
                                         </h1>
@@ -110,7 +110,7 @@ const Country = () => {
                                     <img src={item.Whyimg} alt="" className='h-full object-cover' />
                                 </div>
                                     <div className='Country-Detail flex flex-col items-start gap-5 relative'>
-                                        <img src="esource/course-shape-2.png" alt="" className='w-[80px] absolute right-[0%] top-[0%] animate-[moveTopTo_8s_linear_infinite]' />
+                                        <img src="./Resource/course-shape-2.png" alt="" className='w-[80px] absolute right-[0%] top-[0%] animate-[moveTopTo_8s_linear_infinite]' />
                                         <h1 className="About-Heading w-4/5 text-6xl font-extrabold  capitalize text-wrap mb-1 text-start">
                                             {item.why} {item.name} ?
                                         </h1>
